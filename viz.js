@@ -222,8 +222,7 @@ function BarChart(data, {
     color: "steelblue",
     duration: 750 // slow transition for demonstration
   });
-  console.log(chart);
-  //d3.select("body").append(chart);
+
   document.body.appendChild(chart);
   blank = {};
   update = undefined;

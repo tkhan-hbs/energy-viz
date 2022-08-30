@@ -216,7 +216,7 @@ function BarChart(data, {
     x: d => d.month,
     y: d => d.data,
     yFormat: ".2f",
-    yLabel: "Avg Practical Potential",
+    yLabel: "Avg Practical Potential,(PVOUT Level 1, kWh/kWp/day), long-term",
     width: 640,
     height: 500,
     color: "steelblue",
